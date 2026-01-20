@@ -1,0 +1,29 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 630'>
+  <defs>
+    <linearGradient id='bg' x1='0' x2='1'>
+      <stop offset='0' stop-color='#0f172a'/>
+      <stop offset='1' stop-color='#0b1223'/>
+    </linearGradient>
+    <linearGradient id='g' x1='0' x2='1'>
+      <stop offset='0' stop-color='#22c55e'/>
+      <stop offset='1' stop-color='#16a34a'/>
+    </linearGradient>
+  </defs>
+  <rect width='1200' height='630' fill='url(#bg)'/>
+  <circle cx='960' cy='-40' r='400' fill='#22c55e' opacity='.08'/>
+  <g transform='translate(120,140)'>
+    <rect x='0' y='0' width='520' height='360' rx='18' fill='#0b1223' stroke='#1f2937'/>
+    <rect x='24' y='24' width='472' height='56' rx='12' fill='#0f152a' stroke='#1f2937'/>
+    <rect x='24' y='100' width='180' height='56' rx='12' fill='#0f152a' stroke='#1f2937'/>
+    <rect x='224' y='100' width='180' height='56' rx='12' fill='#0f152a' stroke='#1f2937'/>
+    <rect x='24' y='176' width='380' height='56' rx='12' fill='#0f152a' stroke='#1f2937'/>
+    <rect x='24' y='252' width='280' height='56' rx='12' fill='#0f152a' stroke='#1f2937'/>
+    <circle cx='64' cy='52' r='10' fill='#374151'/>
+    <circle cx='92' cy='52' r='10' fill='#374151'/>
+    <circle cx='120' cy='52' r='10' fill='#374151'/>
+    <text x='560' y='70' font-family='Segoe UI, Arial, sans-serif' font-size='56' fill='white' font-weight='700'>CramSchool AI</text>
+    <text x='560' y='130' font-family='Segoe UI, Arial, sans-serif' font-size='28' fill='#9ca3af'>自動出題・智慧講義・成效儀表板</text>
+    <rect x='560' y='180' width='360' height='60' rx='30' fill='url(#g)'/>
+    <text x='580' y='220' font-family='Segoe UI, Arial, sans-serif' font-size='24' fill='#041015' font-weight='700'>預約 30 分鐘線上 Demo</text>
+  </g>
+</svg>

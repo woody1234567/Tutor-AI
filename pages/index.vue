@@ -1,0 +1,240 @@
+<template>
+  <div>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>用 AI，讓補習班教得更快、更好</h1>
+          <p class="lead">
+            上傳既有題庫（含詳解），老師可指派學生線上練習並自動批改；系統統計正答率與弱點題型，解析可控開放，還能請
+            AI 助教做更細緻說明。
+          </p>
+          <div class="cta">
+            <NuxtLink class="btn btn-primary" to="#contact">
+              <i class="fa-solid fa-video"></i>預約 30 分鐘線上 Demo
+            </NuxtLink>
+            <NuxtLink class="btn btn-ghost" to="#features">看看怎麼做到</NuxtLink>
+          </div>
+          <ul class="trust-list" aria-label="重點價值">
+            <li>
+              <i class="fa-solid fa-file-arrow-up"></i> 支援
+              圖片/Markdown/Latex 題庫上傳
+            </li>
+            <li>
+              <i class="fa-solid fa-chart-line"></i> 學生答對/答錯率與章節統計
+            </li>
+            <li>
+              <i class="fa-solid fa-robot"></i> AI 助教引用題幹與授權資料
+            </li>
+          </ul>
+        </div>
+        <div class="hero-media" aria-hidden="true">
+          <div class="mockup">
+            <div class="mockup-bar">
+              <span></span><span></span><span></span>
+            </div>
+            <div class="mockup-body">
+              <div class="mockup-card">AI 題目解析</div>
+              <div class="mockup-card">客制化學習</div>
+              <div class="mockup-card">學生學習成效分析</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="features" class="section">
+      <div class="container">
+        <h2>專為補習班的關鍵功能</h2>
+        <div class="features-grid">
+          <article class="feature">
+            <h3><i class="fa-solid fa-database"></i> 題庫上傳與解析</h3>
+            <p>支援 圖片\Markdown\Latex語法上傳，快速建立題庫資料庫。</p>
+          </article>
+          <article class="feature">
+            <h3><i class="fa-solid fa-list-check"></i> 指派與線上練習</h3>
+            <p>
+              老師選題一鍵指派；學生手機或電腦作答，支援截止時間與補交設定。
+            </p>
+          </article>
+          <article class="feature">
+            <h3>
+              <i class="fa-solid fa-wand-magic-sparkles"></i> 自動批改與防舞弊
+            </h3>
+            <p>選擇/填充自動批改，教師可授權學生閱讀題目詳解。</p>
+          </article>
+          <article class="feature">
+            <h3><i class="fa-solid fa-chart-pie"></i> 成績統計與診斷</h3>
+            <p>班級/個人正答率、章節/題型熱力圖、薄弱概念追蹤，協助補強。</p>
+          </article>
+          <article class="feature">
+            <h3><i class="fa-solid fa-book-open"></i> 錯題本與解析控管</h3>
+            <p>老師決定何時開放解析；學生集中查看錯題、再次演練與筆記。</p>
+          </article>
+          <article class="feature">
+            <h3><i class="fa-solid fa-robot"></i> AI 助教深度解說</h3>
+            <p>
+              學生看不懂解析時，可向 AI
+              助教提問，獲得步驟化講解與提示，引用題幹與授權資料。
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="roles" class="section alt">
+      <div class="container">
+        <h2>角色視角功能一覽</h2>
+        <div class="roles-grid">
+          <article class="role">
+            <h3><i class="fa-solid fa-person-chalkboard"></i> 教師</h3>
+            <ul>
+              <li>上傳題庫、維護章節與題型標籤</li>
+              <li>選題組卷、設定截止與評分規則</li>
+              <li>查看班級/個人成效與弱點題型</li>
+              <li>控制解析開放時機與內容</li>
+            </ul>
+          </article>
+          <article class="role">
+            <h3><i class="fa-solid fa-user-graduate"></i> 學生</h3>
+            <ul>
+              <li>線上作答、即時查看對錯與得分</li>
+              <li>錯題本集中複習與重做</li>
+              <li>向 AI 助教提問獲得更細緻解釋</li>
+              <li>行動裝置友善，隨時可練習</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="how" class="section alt">
+      <div class="container">
+        <h2>3 步驟開始使用</h2>
+        <ol class="steps">
+          <li>
+            <strong>上傳與整理題庫</strong>
+            <span>將既有題目與詳解上傳，設定章節與題型標籤。</span>
+          </li>
+          <li>
+            <strong>指派與作答</strong>
+            <span>選題組卷並指派；學生線上練習、即時批改。</span>
+          </li>
+          <li>
+            <strong>統計與回饋</strong>
+            <span>查看正答率與薄弱題型，控管解析開放，指引 AI 助教協助。</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="pricing" class="section">
+      <div class="container">
+        <h2>彈性方案，隨班級成長</h2>
+        <div class="pricing">
+          <div class="card">
+            <div class="card-head">
+              <h3>Starter</h3>
+              <p class="price">NT$ 1,490<span>/月</span></p>
+            </div>
+            <ul class="card-list">
+              <li>單校 2 班級</li>
+              <li>基本出題與講義</li>
+              <li>PDF/Docx 匯出</li>
+            </ul>
+            <NuxtLink class="btn btn-outline" to="#contact">試用諮詢</NuxtLink>
+          </div>
+          <div class="card highlight">
+            <div class="card-head">
+              <h3>Pro</h3>
+              <p class="price">NT$ 3,990<span>/月</span></p>
+            </div>
+            <ul class="card-list">
+              <li>不限班級與科目</li>
+              <li>學習儀表板與家長報表</li>
+              <li>LMS/Line Notify 整合</li>
+            </ul>
+            <NuxtLink class="btn btn-primary" to="#contact">最受歡迎</NuxtLink>
+          </div>
+          <div class="card">
+            <div class="card-head">
+              <h3>Campus</h3>
+              <p class="price">客製報價</p>
+            </div>
+            <ul class="card-list">
+              <li>多校與總部管理</li>
+              <li>專屬部署與資安稽核</li>
+              <li>SLA 與培訓</li>
+            </ul>
+            <NuxtLink class="btn btn-outline" to="#contact">聯繫我們</NuxtLink>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" class="section alt">
+      <div class="container">
+        <h2>使用單位怎麼說</h2>
+        <div class="quotes">
+          <figure>
+            <blockquote>
+              每週備課時間從 6 小時降到 2 小時，孩子的段考成績也穩定提升。
+            </blockquote>
+            <figcaption>新北國中英語 老師 L.</figcaption>
+          </figure>
+          <figure>
+            <blockquote>
+              家長週報很有感，轉介紹率提升明顯，招生季特別好用。
+            </blockquote>
+            <figcaption>高雄理化補習班 負責人 W.</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="section">
+      <div class="container">
+        <h2>常見問題</h2>
+        <div class="faq">
+          <details>
+            <summary>支援哪些題庫檔案格式？</summary>
+            <p>
+              目前支援 PDF、Word、Excel
+              與常見圖片格式（JPG/PNG）。可混合上傳，再由系統抽取題幹、答案與解析欄位。
+            </p>
+          </details>
+          <details>
+            <summary>AI 助教的回答如何被控管？</summary>
+            <p>
+              AI
+              助教僅使用題幹、已上傳解析與授權資料庫進行說明，並遵守禁詞/風險過濾規則；教師可關閉或限制助教功能。
+            </p>
+          </details>
+          <details>
+            <summary>成績統計與匯出有哪些？</summary>
+            <p>
+              可查看班級/學生正答率、章節/題型熱力圖與作答時間，並支援成績 CSV
+              匯出與家長回饋報表。
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section cta">
+      <div class="container">
+        <h2>想親眼看看？預約專屬 Demo</h2>
+        <p>留下您的聯絡方式與需求，我們將於 1–2 個工作日內回覆。</p>
+        <div class="gform-embed">
+          <iframe
+            src="https://docs.google.com/forms/d/e/1FAIpQLSdPP5OrzwDFiuASrKlk9ihnozMNoP3ssvaRAkSemxVHTL95Ng/viewform?embedded=true"
+            width="100%"
+            height="300"
+            frameborder="0"
+            marginheight="0"
+            marginwidth="0"
+          >載入中</iframe>
+        </div>
+      </div>
+    </section>
+  </div>
+</template>
